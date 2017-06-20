@@ -56,4 +56,17 @@
         <source-file src="src/wp8/Clipboard.cs" />
     </platform>
 
+    <!-- browser -->
+    <platform name="browser">
+        <config-file target="config.xml" parent="/*">
+            <feature name="Clipboard">
+                <param name="browser-package" value="Clipboard" />
+            </feature>
+        </config-file>
+
+        <js-module src="src/browser/clipboard.js" name="Clipboard">
+            <runs />
+        </js-module>
+    </platform>
+
 </plugin>
