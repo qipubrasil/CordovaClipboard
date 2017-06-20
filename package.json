@@ -1,0 +1,38 @@
+{
+  "name": "CordovaClipboard",
+  "version": "0.1.0",
+  "description": "Clipboard management plugin for Cordova/PhoneGap",
+  "cordova": {
+    "id": "com.pkos.cordova.clipboard",
+    "platforms": [
+      "ios",
+      "android",
+      "wp8"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/p-kos/CordovaClipboard.git"
+  },
+  "keywords": [
+    "clipboard",
+    "copy",
+    "paste",
+    "ecosystem:cordova",
+    "cordova-ios",
+    "cordova-android",
+    "cordova-wp8"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=4.0.0"
+    }
+  ],
+  "author": "Marco Zarate",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/p-kos/CordovaClipboard/issues"
+  },
+  "homepage": "https://github.com/p-kos/CordovaClipboard#readme"
+}
