@@ -64,7 +64,7 @@
             </feature>
         </config-file>
 
-        <js-module src="src/browser/clipboard.js" name="Clipboard">
+        <js-module src="src/browser/ClipboardProxy.js" name="Clipboard">
             <runs />
         </js-module>
     </platform>
