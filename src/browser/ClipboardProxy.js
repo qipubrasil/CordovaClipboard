@@ -18,7 +18,7 @@ function paste(callback){
     callback(text);
 }
 
-var Clipboard ={
+module.exports ={
     copy: function (success, fail, text){
         if (!text || !text.length){
             fail("There is no text to copy");
@@ -37,4 +37,4 @@ var Clipboard ={
         })
     }
 }
-require("cordova/exec/proxy").add("Clipboard", Clipboard);
+require("cordova/exec/proxy").add("Clipboard", module.exports);
