@@ -8,7 +8,7 @@
         <engine name="cordova" version=">=4.0.0" />
     </engines>
 
-    <name>Clipboard</name>
+    <name>Clipboard - Qipu Fork</name>
 
     <description>Clipboard management plugin for Cordova/PhoneGap</description>
 

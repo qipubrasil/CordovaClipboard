@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/p-kos/CordovaClipboard.git"
+    "url": "git+https://github.com/qipubrasil/CordovaClipboard.git"
   },
   "keywords": [
     "clipboard",
@@ -34,7 +34,7 @@
   "author": "Marco Zarate",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/p-kos/CordovaClipboard/issues"
+    "url": "https://github.com/qipubrasil/CordovaClipboard/issues"
   },
-  "homepage": "https://github.com/p-kos/CordovaClipboard#readme"
+  "homepage": "https://github.com/qipubrasil/CordovaClipboard#readme"
 }
